@@ -4,11 +4,41 @@
   align-items: stretch;
   justify-content: space-between;
   margin: 0;
-  padding: 40px 0 40px;
+  padding: 38px 0 40px;
 }
 
 .hero__slogan {
   display: block;
   margin: 0;
   padding: 0;
+  font-family: $second-font-family;
+  text-align: left;
+  font-size: 36px;
+  line-height: 1.1;
+  text-transform: uppercase;
+}
+
+.hero__slogan span:first-child {
+  display: block;
+  text-align: right;
+  padding-right: 56px;
+}
+
+.hero__slogan span:last-child {
+  padding: 0;
+  display: block;
+  text-align: right;
+}
+
+.hero__text {
+  display: block;
+  font-family: $basic-font-family;
+  font-size: 18px;
+  line-height: 1.3;
+  padding: 6px 0;
+}
+
+.hero__buttons {
+  display: flex;
+  flex-direction: column;
 }
