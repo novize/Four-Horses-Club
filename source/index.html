@@ -5,200 +5,202 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Клуб четырех коней</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles/styles.css">
 </head>
 
-<body>
-  <div class="content-wrapper">
-    <header class="header">
-      <a href="#" class="logo">
-        <picture>
-          <source width="246" height="36" type="image/svg+xml" media="(min-width: 768px)" srcset="images/logo-desk.svg">
-          <img class="logo__image" src="images/logo-mobile.svg" width="213" height="32" alt="Логотип сайта">
-        </picture>
-      </a>
-      <h1 class="visually-hidden">Анонс шахматного мероприятия</h1>
-      <div class="hero">
-        <p class="hero__slogan">Превратите уездный город<br><span>в&nbsp;столицу</span><br><span>земного&nbsp;шара</span></p>
-        <p class="hero__text">Оплатите взнос на телеграммы для организации Международного васюкинского турнира по шахматам</p>
+<body class="body">
+  <header class="header">
+    <a class="logo" href="#">
+      <picture>
+        <source width="246" height="36" type="image/svg+xml" media="(min-width: 768px)" srcset="images/logo-desk.svg">
+        <img class="logo__image" src="images/logo-mobile.svg" width="213" height="32" alt="Логотип сайта">
+      </picture>
+    </a>
+    <h1 class="visually-hidden">Анонс шахматного мероприятия</h1>
+    <div class="hero">
+      <p class="hero__slogan">Превратите уездный город<br><span>в&nbsp;столицу</span><br><span>земного&nbsp;шара</span></p>
+      <p class="hero__text">Оплатите взнос на телеграммы для организации Международного васюкинского турнира по шахматам</p>
 
-        <div class="hero__buttons">
-          <button class="btn btn--hero" type="button">Поддержать шахматную мысль</button>
-          <button class="btn btn--hero" type="button">Подробнее о турнире</button>
-        </div>
+      <div class="hero__buttons">
+        <button class="btn btn--hero" type="button">Поддержать шахматную мысль</button>
+        <button class="btn btn--hero" type="button">Подробнее о турнире</button>
       </div>
+    </div>
+    <div class="running-string">
+      <p class="running-string__text">Дело помощи утопающим — дело рук самих утопающих!</p>
+      <p class="running-string__text">Шахматы двигают вперед не только культуру, но и экономику!</p>
+      <p class="running-string__text">Лед тронулся, господа присяжные заседатели!</p>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="invite">
+      <h2 class="visually-hidden">Афиша мероприятия</h2>
+      <p class="invite__text">Чтобы поддержать Международный васюкинский турнир посетите лекцию на тему: <span>«Плодотворная дебютная идея»</span></p>
+      <p class="invite__text">и cеанс <span>одновременной игры в шахматы на 160 досках гроссмейстера О. Бендера</span></p>
+      <dl class="invite__affiche">
+
+        <dt class="invite__affiche-key">Место проведения:</dt>
+        <dd class="invite__affiche-value">Клуб «Картонажник»</dd>
+
+        <dt class="invite__affiche-key">Дата и время мероприятия:</dt>
+        <dd class="invite__affiche-value">22 июня 1927&nbsp;г. в 18:00</dd>
+
+        <dt class="invite__affiche-key">Стоимость входных билетов:</dt>
+        <dd class="invite__affiche-value">20&nbsp;коп.</dd>
+
+        <dt class="invite__affiche-key">Плата за игру:</dt>
+        <dd class="invite__affiche-value">50&nbsp;коп.</dd>
+
+        <dt class="invite__affiche-key">Взнос на телеграммы:</dt>
+        <dd class="invite__affiche-value"><span>100&nbsp;руб.</span> 21&nbsp;руб. 16&nbsp;коп.</dd>
+
+      </dl>
+      <p class="invite__affiche-notice">По всем вопросам обращаться в администрацию к К. Михельсону</p>
+    </section>
+
+    <section class="plans">
+      <h2 class="title title--plans">Этапы преображения Васюков</h2>
+      <p class="plans__title-text">Будущие источники обогащения васюкинцев</p>
+      <ul class="plan-list">
+        <li class="plan-list__item">
+          <p class="plan-list__item-text">Строительство железнодорожной магистрали Москва-Васюки</p>
+        </li>
+        <li class="plan-list__item">
+          <p class="plan-list__item-text">Открытие фешенебельной гостиницы «Проходная пешка» и других небоскрёбов</p>
+        </li>
+        <li class="plan-list__item">
+          <p class="plan-list__item-text">Поднятие сельского хозяйства в радиусе на тысячу километров: производство овощей, фруктов, икры, шоколадных конфет</p>
+        </li>
+        <li class="plan-list__item">
+          <p class="plan-list__item-text">Строительство дворца для турнира</p>
+        </li>
+        <li class="plan-list__item">
+          <p class="plan-list__item-text">Размещение гаражей для гостевого автотранспорта</p>
+        </li>
+        <li class="plan-list__item">
+          <p class="plan-list__item-text">Постройка сверхмощной радиостанции для передачи всему миру сенсационных результатов</p>
+        </li>
+        <li class="plan-list__item">
+          <p class="plan-list__item-text">Создание аэропорта «Большие Васюки» с регулярным отправлением почтовых самолётов и дирижаблей во все концы света, включая Лос-Анжелос и Мельбурн</p>
+        </li>
+      </ul>
+    </section>
+
+    <section class="participants">
+      <h2 class="title title--participants">Участники турнира</h2>
+      <div class="slider-control">
+        <button class="btn btn--slider" type="button"><span class="visually-hidden">Переключение слайда влево</span></button>
+        <div class="slider-control__counter"><span class="before">3</span>/<span class="after">6</span></div>
+        <button class="btn btn--slider" type="button"><span class="visually-hidden">Переключение слайда вправо</span></button>
+      </div>
+
+      <ul class="participants-list">
+        <li class="participants-list__item">
+          <div class="participants-list__image-box">
+            <picture>
+              <source width="293" height="334" type="image/webp" media="(min-width: 768px)" srcset="images/anonim-player@1x.webp 1x, images/anonim-player@2x.webp 2x">
+              <source width="293" height="334" type="image/webp" srcset="images/anonim-player@1x.webp 1x, images/anonim-player@2x.webp 2x">
+              <source width="293" height="334" type="image/png" media="(min-width: 768px)" srcset="images/anonim-player@1x.png 1x, images/anonim-player@2x.png 2x">
+              <img class="participants-list__image" src="images/anonim-player@1x.png" srcset="images/anonim-player@2x.png 2x" alt="Хозе-Рауль Капабланка" width="293" height="334">
+            </picture>
+          </div>
+          <div class="participants-list__player-bio">
+            <div class="participants-list__player-name">Хозе-Рауль Капабланка</div>
+            <div class="participants-list__player-status">Чемпион мира по шахматам</div>
+            <a class="btn btn--partisipants" href="#">Подробнее</a>
+          </div>
+        </li>
+        <li class="participants-list__item">
+          <div class="participants-list__image-box">
+            <picture>
+              <source width="293" height="334" type="image/webp" media="(min-width: 768px)" srcset="images/anonim-player@1x.webp 1x, images/anonim-player@2x.webp 2x">
+              <source width="293" height="334" type="image/webp" srcset="images/anonim-player@1x.webp 1x, images/anonim-player@2x.webp 2x">
+              <source width="293" height="334" type="image/png" media="(min-width: 768px)" srcset="images/anonim-player@1x.png 1x, images/anonim-player@2x.png 2x">
+              <img class="participants-list__image" src="images/anonim-player@1x.png" srcset="images/anonim-player@2x.png 2x" alt="Хозе-Рауль Капабланка" width="293" height="334">
+            </picture>
+          </div>
+          <div class="participants-list__player-bio">
+            <div class="participants-list__player-name">Эммануил Ласкер</div>
+            <div class="participants-list__player-status">Чемпион мира по шахматам</div>
+            <a class="btn btn--partisipants" href="#">Подробнее</a>
+          </div>
+        </li>
+        <li class="participants-list__item">
+          <div class="participants-list__image-box">
+            <picture>
+              <source width="293" height="334" type="image/webp" media="(min-width: 768px)" srcset="images/anonim-player@1x.webp 1x, images/anonim-player@2x.webp 2x">
+              <source width="293" height="334" type="image/webp" srcset="images/anonim-player@1x.webp 1x, images/anonim-player@2x.webp 2x">
+              <source width="293" height="334" type="image/png" media="(min-width: 768px)" srcset="images/anonim-player@1x.png 1x, images/anonim-player@2x.png 2x">
+              <img class="participants-list__image" src="images/anonim-player@1x.png" srcset="images/anonim-player@2x.png 2x" alt="Хозе-Рауль Капабланка" width="293" height="334">
+            </picture>
+          </div>
+          <div class="participants-list__player-bio">
+            <div class="participants-list__player-name">Александр Алехин</div>
+            <div class="participants-list__player-status">Чемпион мира по шахматам</div>
+            <a class="btn btn--partisipants" href="#">Подробнее</a>
+          </div>
+        </li>
+        <li class="participants-list__item">
+          <div class="participants-list__image-box">
+            <picture>
+              <source width="293" height="334" type="image/webp" media="(min-width: 768px)" srcset="images/anonim-player@1x.webp 1x, images/anonim-player@2x.webp 2x">
+              <source width="293" height="334" type="image/webp" srcset="images/anonim-player@1x.webp 1x, images/anonim-player@2x.webp 2x">
+              <source width="293" height="334" type="image/png" media="(min-width: 768px)" srcset="images/anonim-player@1x.png 1x, images/anonim-player@2x.png 2x">
+              <img class="participants-list__image" src="images/anonim-player@1x.png" srcset="images/anonim-player@2x.png 2x" alt="Хозе-Рауль Капабланка" width="293" height="334">
+            </picture>
+          </div>
+          <div class="participants-list__player-bio">
+            <div class="participants-list__player-name">Арон Нимцович</div>
+            <div class="participants-list__player-status">Чемпион мира по шахматам</div>
+            <a class="btn btn--partisipants" href="#">Подробнее</a>
+          </div>
+        </li>
+        <li class="participants-list__item">
+          <div class="participants-list__image-box">
+            <picture>
+              <source width="293" height="334" type="image/webp" media="(min-width: 768px)" srcset="images/anonim-player@1x.webp 1x, images/anonim-player@2x.webp 2x">
+              <source width="293" height="334" type="image/webp" srcset="images/anonim-player@1x.webp 1x, images/anonim-player@2x.webp 2x">
+              <source width="293" height="334" type="image/png" media="(min-width: 768px)" srcset="images/anonim-player@1x.png 1x, images/anonim-player@2x.png 2x">
+              <img class="participants-list__image" src="images/anonim-player@1x.png" srcset="images/anonim-player@2x.png 2x" alt="Хозе-Рауль Капабланка" width="293" height="334">
+            </picture>
+          </div>
+          <div class="participants-list__player-bio">
+            <div class="participants-list__player-name">Рихард Рети</div>
+            <div class="participants-list__player-status">Чемпион мира по шахматам</div>
+            <a class="btn btn--partisipants" href="#">Подробнее</a>
+          </div>
+        </li>
+        <li class="participants-list__item">
+          <div class="participants-list__image-box">
+            <picture>
+              <source width="293" height="334" type="image/webp" media="(min-width: 768px)" srcset="images/anonim-player@1x.webp 1x, images/anonim-player@2x.webp 2x">
+              <source width="293" height="334" type="image/webp" srcset="images/anonim-player@1x.webp 1x, images/anonim-player@2x.webp 2x">
+              <source width="293" height="334" type="image/png" media="(min-width: 768px)" srcset="images/anonim-player@1x.png 1x, images/anonim-player@2x.png 2x">
+              <img class="participants-list__image" src="images/anonim-player@1x.png" srcset="images/anonim-player@2x.png 2x" alt="Хозе-Рауль Капабланка" width="293" height="334">
+            </picture>
+          </div>
+          <div class="participants-list__player-bio">
+            <div class="participants-list__player-name">Остап Бендер</div>
+            <div class="participants-list__player-status">Гроссмейстер</div>
+            <a class="btn btn--partisipants" href="#">Подробнее</a>
+          </div>
+        </li>
+      </ul>
+
       <div class="running-string">
         <p class="running-string__text">Дело помощи утопающим — дело рук самих утопающих!</p>
         <p class="running-string__text">Шахматы двигают вперед не только культуру, но и экономику!</p>
         <p class="running-string__text">Лед тронулся, господа присяжные заседатели!</p>
       </div>
-    </header>
-
-    <main class="main">
-      <h2 class="visually-hidden">Афиша мероприятия</h2>
-      <section class="invite">
-        <p class="invite__text">Чтобы поддержать Международный васюкинский турнир посетите лекцию на тему: <span>«Плодотворная дебютная идея»</span></p>
-        <p class="invite__text">и cеанс <span>одновременной игры в шахматы на 160 досках гроссмейстера О. Бендера</span></p>
-        <dl class="invite__affiche">
-
-          <dt class="invite__affiche--key">Место проведения:</dt>
-          <dt class="invite__affiche--value">Клуб «Картонажник»</dt>
-
-          <dt class="invite__affiche--key">Дата и время мероприятия:</dt>
-          <dt class="invite__affiche--value">22 июня 1927&nbsp;г. в 18:00</dt>
-
-          <dt class="invite__affiche--key">Стоимость входных билетов:</dt>
-          <dt class="invite__affiche--value">20&nbsp;коп.</dt>
-
-          <dt class="invite__affiche--key">Плата за игру:</dt>
-          <dt class="invite__affiche--value">50&nbsp;коп.</dt>
-
-          <dt class="invite__affiche--key">Взнос на телеграммы:</dt>
-          <dt class="invite__affiche--value"><span>100&nbsp;руб.</span> 21&nbsp;руб. 16&nbsp;коп.</dt>
-
-        </dl>
-        <p class="invite__affiche--notice">По всем вопросам обращаться в администрацию к К. Михельсону</p>
-      </section>
-
-      <section class="plans">
-        <h2 class="section-title">Этапы преображения Васюков</h2>
-        <p class="section-title__text">Будущие источники обогащения васюкинцев</p>
-        <ul class="plan-list">
-          <li class="plan-list__item">
-            <p class="plan-list__item--text">Строительство железнодорожной магистрали Москва-Васюки</p>
-          </li>
-          <li class="plan-list__item">
-            <p class="plan-list__item--text">Открытие фешенебельной гостиницы «Проходная пешка» и других небоскрёбов</p>
-          </li>
-          <li class="plan-list__item">
-            <p class="plan-list__item--text">Поднятие сельского хозяйства в радиусе на тысячу километров: производство овощей, фруктов, икры, шоколадных конфет</p>
-          </li>
-          <li class="plan-list__item">
-            <p class="plan-list__item--text">Строительство дворца для турнира</p>
-          </li>
-          <li class="plan-list__item">
-            <p class="plan-list__item--text">Размещение гаражей для гостевого автотранспорта</p>
-          </li>
-          <li class="plan-list__item">
-            <p class="plan-list__item--text">Постройка сверхмощной радиостанции для передачи всему миру сенсационных результатов</p>
-          </li>
-          <li class="plan-list__item">
-            <p class="plan-list__item--text">Создание аэропорта «Большие Васюки» с регулярным отправлением почтовых самолётов и дирижаблей во все концы света, включая Лос-Анжелос и Мельбурн</p>
-          </li>
-        </ul>
-      </section>
-
-      <section class="participants">
-        <h2 class="section-title">Участники турнира</h2>
-        <div class="slider-control">
-          <button class="btn btn--slider" type="button"><span class="visually-hidden">Переключение слайда влево</span></button>
-          <div class="slider-control__counter"><span class="before">3</span>/<span class="after">6</span></div>
-          <button class="btn btn--slider" type="button"><span class="visually-hidden">Переключение слайда вправо</span></button>
-        </div>
-
-        <ul class="participants-list">
-          <li class="participants-list__item">
-            <div class="participants-list__image-box">
-              <picture>
-                <source width="293" height="334" type="image/webp" media="(min-width: 768px)" srcset="images/anonim-player@1x.webp 1x, images/anonim-player@2x.webp 2x">
-                <source width="293" height="334" type="image/webp" srcset="images/anonim-player@1x.webp 1x, images/anonim-player@2x.webp 2x">
-                <source width="293" height="334" type="image/png" media="(min-width: 768px)" srcset="images/anonim-player@1x.png 1x, images/anonim-player@2x.png 2x">
-                <img src="images/anonim-player@1x.png" srcset="images/anonim-player@2x.png 2x" alt="Хозе-Рауль Капабланка" width="293" height="334">
-              </picture>
-            </div>
-            <div class="participants-list__player-bio">
-              <div class="participants-list__player-name">Хозе-Рауль Капабланка</div>
-              <div class="participants-list__player-status">Чемпион мира по шахматам</div>
-              <a href="№" class="btn btn--partisipants">Подробнее</a>
-            </div>
-          </li>
-          <li class="participants-list__item">
-            <div class="participants-list__image-box">
-              <picture>
-                <source width="293" height="334" type="image/webp" media="(min-width: 768px)" srcset="images/anonim-player@1x.webp 1x, images/anonim-player@2x.webp 2x">
-                <source width="293" height="334" type="image/webp" srcset="images/anonim-player@1x.webp 1x, images/anonim-player@2x.webp 2x">
-                <source width="293" height="334" type="image/png" media="(min-width: 768px)" srcset="images/anonim-player@1x.png 1x, images/anonim-player@2x.png 2x">
-                <img src="images/anonim-player@1x.png" srcset="images/anonim-player@2x.png 2x" alt="Хозе-Рауль Капабланка" width="293" height="334">
-              </picture>
-            </div>
-            <div class="participants-list__player-bio">
-              <div class="participants-list__player-name">Эммануил Ласкер</div>
-              <div class="participants-list__player-status">Чемпион мира по шахматам</div>
-              <a href="№" class="btn btn--partisipants">Подробнее</a>
-            </div>
-          </li>
-          <li class="participants-list__item">
-            <div class="participants-list__image-box">
-              <picture>
-                <source width="293" height="334" type="image/webp" media="(min-width: 768px)" srcset="images/anonim-player@1x.webp 1x, images/anonim-player@2x.webp 2x">
-                <source width="293" height="334" type="image/webp" srcset="images/anonim-player@1x.webp 1x, images/anonim-player@2x.webp 2x">
-                <source width="293" height="334" type="image/png" media="(min-width: 768px)" srcset="images/anonim-player@1x.png 1x, images/anonim-player@2x.png 2x">
-                <img src="images/anonim-player@1x.png" srcset="images/anonim-player@2x.png 2x" alt="Хозе-Рауль Капабланка" width="293" height="334">
-              </picture>
-            </div>
-            <div class="participants-list__player-bio">
-              <div class="participants-list__player-name">Александр Алехин</div>
-              <div class="participants-list__player-status">Чемпион мира по шахматам</div>
-              <a href="№" class="btn btn--partisipants">Подробнее</a>
-            </div>
-          </li>
-          <li class="participants-list__item">
-            <div class="participants-list__image-box">
-              <picture>
-                <source width="293" height="334" type="image/webp" media="(min-width: 768px)" srcset="images/anonim-player@1x.webp 1x, images/anonim-player@2x.webp 2x">
-                <source width="293" height="334" type="image/webp" srcset="images/anonim-player@1x.webp 1x, images/anonim-player@2x.webp 2x">
-                <source width="293" height="334" type="image/png" media="(min-width: 768px)" srcset="images/anonim-player@1x.png 1x, images/anonim-player@2x.png 2x">
-                <img src="images/anonim-player@1x.png" srcset="images/anonim-player@2x.png 2x" alt="Хозе-Рауль Капабланка" width="293" height="334">
-              </picture>
-            </div>
-            <div class="participants-list__player-bio">
-              <div class="participants-list__player-name">Арон Нимцович</div>
-              <div class="participants-list__player-status">Чемпион мира по шахматам</div>
-              <a href="№" class="btn btn--partisipants">Подробнее</a>
-            </div>
-          </li>
-          <li class="participants-list__item">
-            <div class="participants-list__image-box">
-              <picture>
-                <source width="293" height="334" type="image/webp" media="(min-width: 768px)" srcset="images/anonim-player@1x.webp 1x, images/anonim-player@2x.webp 2x">
-                <source width="293" height="334" type="image/webp" srcset="images/anonim-player@1x.webp 1x, images/anonim-player@2x.webp 2x">
-                <source width="293" height="334" type="image/png" media="(min-width: 768px)" srcset="images/anonim-player@1x.png 1x, images/anonim-player@2x.png 2x">
-                <img src="images/anonim-player@1x.png" srcset="images/anonim-player@2x.png 2x" alt="Хозе-Рауль Капабланка" width="293" height="334">
-              </picture>
-            </div>
-            <div class="participants-list__player-bio">
-              <div class="participants-list__player-name">Рихард Рети</div>
-              <div class="participants-list__player-status">Чемпион мира по шахматам</div>
-              <a href="№" class="btn btn--partisipants">Подробнее</a>
-            </div>
-          </li>
-          <li class="participants-list__item">
-            <div class="participants-list__image-box">
-              <picture>
-                <source width="293" height="334" type="image/webp" media="(min-width: 768px)" srcset="images/anonim-player@1x.webp 1x, images/anonim-player@2x.webp 2x">
-                <source width="293" height="334" type="image/webp" srcset="images/anonim-player@1x.webp 1x, images/anonim-player@2x.webp 2x">
-                <source width="293" height="334" type="image/png" media="(min-width: 768px)" srcset="images/anonim-player@1x.png 1x, images/anonim-player@2x.png 2x">
-                <img src="images/anonim-player@1x.png" srcset="images/anonim-player@2x.png 2x" alt="Хозе-Рауль Капабланка" width="293" height="334">
-              </picture>
-            </div>
-            <div class="participants-list__player-bio">
-              <div class="participants-list__player-name">Остап Бендер</div>
-              <div class="participants-list__player-status">Гроссмейстер</div>
-              <a href="№" class="btn btn--partisipants">Подробнее</a>
-            </div>
-          </li>
-        </ul>
-        <div class="running-string">
-          <p class="running-string__text">Дело помощи утопающим — дело рук самих утопающих!</p>
-          <p class="running-string__text">Шахматы двигают вперед не только культуру, но и экономику!</p>
-          <p class="running-string__text">Лед тронулся, господа присяжные заседатели!</p>
-        </div>
-      </section>
-      <footer class="footer">
-        <p class="disclaimer">Все персонажи, события и цитаты являются вымышленными и не принадлежат создателям сайта. С подробностями можно познакомиться в главе XXXIV романа Ильи Ильфа и Евгения Петрова «Двенадцать стульев».</p>
-      </footer>
-    </main>
-  </div>
+    </section>
+    <footer class="footer">
+      <p class="footer__disclaimer">Все персонажи, события и цитаты являются вымышленными и не принадлежат создателям сайта. С подробностями можно познакомиться в главе XXXIV романа Ильи Ильфа и Евгения Петрова «Двенадцать стульев».</p>
+    </footer>
+  </main>
 </body>
 
 </html>
