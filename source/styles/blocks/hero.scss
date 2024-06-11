@@ -4,7 +4,7 @@
   align-items: stretch;
   justify-content: space-between;
   margin: 0;
-  padding: 38px 0 40px;
+  padding: 38px 20px 40px;
 }
 
 .hero__slogan {
@@ -35,10 +35,13 @@
   font-family: $basic-font-family;
   font-size: 18px;
   line-height: 1.3;
-  padding: 6px 0;
+  padding: 23px 0;
+  margin: 0;
 }
 
 .hero__buttons {
   display: flex;
   flex-direction: column;
+  align-items: stretch;
+  margin-top: 9px;
 }
