@@ -39,31 +39,55 @@
   <main class="main">
     <section class="invite">
       <h2 class="visually-hidden">Афиша мероприятия</h2>
-      <p class="invite__text">Чтобы поддержать Международный васюкинский турнир посетите лекцию на тему: <span>«Плодотворная дебютная идея»</span></p>
-      <p class="invite__text">и cеанс <span>одновременной игры в шахматы на 160 досках гроссмейстера О. Бендера</span></p>
+      <p class="invite__text">
+        <span>Чтобы поддержать Международный васюкинский турнир</span>
+        <span>посетите лекцию на тему: <strong>«Плодотворная дебютная идея» </strong></span>
+        <span>и cеанс <strong>одновременной игры в шахматы на 160 досках</strong> гроссмейстера О.&nbsp;Бендера</span>
+      </p>
+      <div class="invite__images invite__images--players">
+        <pictures>
+          <source width="335" height="213" type="image/webp" media="(min-width: 768px)" srcset="images/chees-players-desk@1x.webp 1x, images/chees-players-desk@2x.webp 2x">
+          <source width="335" height="213" type="image/webp" srcset="images/chees-players-desk@1x.webp 1x, images/chees-players-desk@2x.webp 2x">
+          <source width="335" height="213" type="image/jpg" media="(min-width: 768px)" srcset="images/chees-players-desk@1x.jpg 1x, images/chees-players-desk@2x.jpg 2x">
+          <img class="invite__image" src="images/chees-players-desk@1x.jpg" srcset="images/chees-players-desk@2x.jpg 2x" alt="Играют в шахматы" width="335" height="213">
+        </pictures>
+      </div>
+      <div class="invite__images invite__images--player">
+        <pictures>
+          <source width="374" height="402" type="image/webp" media="(min-width: 768px)" srcset="images/player-desk@1x.webp 1x, images/player-desk@2x.webp 2x">
+          <source width="374" height="402" type="image/webp" srcset="images/player-desk@1x.webp 1x, images/player-desk@2x.webp 2x">
+          <source width="374" height="402" type="image/png" media="(min-width: 768px)" srcset="images/player-desk@1x.png 1x, images/player-desk@2x.png 2x">
+          <img class="invite__image" src="images/player-desk@1x.png" srcset="images/player-desk@2x.png 2x" alt="Игрок обдумывает ход" width="374" height="402">
+        </pictures>
+      </div>
       <dl class="invite__affiche">
-
-        <dt class="invite__affiche-key">Место проведения:</dt>
-        <dd class="invite__affiche-value">Клуб «Картонажник»</dd>
-
-        <dt class="invite__affiche-key">Дата и время мероприятия:</dt>
-        <dd class="invite__affiche-value">22 июня 1927&nbsp;г. в 18:00</dd>
-
-        <dt class="invite__affiche-key">Стоимость входных билетов:</dt>
-        <dd class="invite__affiche-value">20&nbsp;коп.</dd>
-
-        <dt class="invite__affiche-key">Плата за игру:</dt>
-        <dd class="invite__affiche-value">50&nbsp;коп.</dd>
-
-        <dt class="invite__affiche-key">Взнос на телеграммы:</dt>
-        <dd class="invite__affiche-value"><span>100&nbsp;руб.</span> 21&nbsp;руб. 16&nbsp;коп.</dd>
+        <div class="invite__affiche-row">
+          <dt class="invite__affiche-key">Место проведения:</dt>
+          <dd class="invite__affiche-value">Клуб «Картонажник»</dd>
+        </div>
+        <div class="invite__affiche-row">
+          <dt class="invite__affiche-key">Дата и время мероприятия:</dt>
+          <dd class="invite__affiche-value">22 июня 1927&nbsp;г. в 18:00</dd>
+        </div>
+        <div class="invite__affiche-row">
+          <dt class="invite__affiche-key">Стоимость входных билетов:</dt>
+          <dd class="invite__affiche-value">20&nbsp;коп.</dd>
+        </div>
+        <div class="invite__affiche-row">
+          <dt class="invite__affiche-key">Плата за игру:</dt>
+          <dd class="invite__affiche-value">50&nbsp;коп.</dd>
+        </div>
+        <div class="invite__affiche-row">
+          <dt class="invite__affiche-key">Взнос на телеграммы:</dt>
+          <dd class="invite__affiche-value"><span class="new-price">100&nbsp;руб.</span><span> 21&nbsp;руб. 16&nbsp;коп.</span></dd>
+        </div>
 
       </dl>
-      <p class="invite__affiche-notice">По всем вопросам обращаться в администрацию к К. Михельсону</p>
+      <p class="invite__affiche-notice">По всем вопросам обращаться в&nbsp;администрацию к К. Михельсону</p>
     </section>
 
     <section class="plans">
-      <h2 class="title title--plans">Этапы преображения Васюков</h2>
+      <h2 class="title title--section">Этапы преображения Васюков</h2>
       <p class="plans__title-text">Будущие источники обогащения васюкинцев</p>
       <ul class="plan-list">
         <li class="plan-list__item">
@@ -82,21 +106,22 @@
           <p class="plan-list__item-text">Размещение гаражей для гостевого автотранспорта</p>
         </li>
         <li class="plan-list__item">
-          <p class="plan-list__item-text">Постройка сверхмощной радиостанции для передачи всему миру сенсационных результатов</p>
+          <p class="plan-list__item-text">Постройка сверхмощной радиостанции для&nbsp;передачи всему миру сенсационных результатов</p>
         </li>
         <li class="plan-list__item">
-          <p class="plan-list__item-text">Создание аэропорта «Большие Васюки» с регулярным отправлением почтовых самолётов и дирижаблей во все концы света, включая Лос-Анжелос и Мельбурн</p>
+          <p class="plan-list__item-text">Создание аэропорта «Большие Васюки» с&nbsp;регулярным отправлением почтовых самолётов и дирижаблей во все концы света, включая Лос-Анжелос и&nbsp;Мельбурн</p>
         </li>
       </ul>
+
+      <div class="slider-control slider-control--plans">
+        <button class="btn btn--slider" type="button"><span class="visually-hidden">Переключение слайда влево</span></button>
+        <div class="slider-control__counter"><span class="dots">...</span></div>
+        <button class="btn btn--slider" type="button"><span class="visually-hidden">Переключение слайда вправо</span></button>
+      </div>
     </section>
 
     <section class="participants">
-      <h2 class="title title--participants">Участники турнира</h2>
-      <div class="slider-control">
-        <button class="btn btn--slider" type="button"><span class="visually-hidden">Переключение слайда влево</span></button>
-        <div class="slider-control__counter"><span class="before">3</span>/<span class="after">6</span></div>
-        <button class="btn btn--slider" type="button"><span class="visually-hidden">Переключение слайда вправо</span></button>
-      </div>
+      <h2 class="title title--section">Участники турнира</h2>
 
       <ul class="participants-list">
         <li class="participants-list__item">
@@ -105,7 +130,7 @@
               <source width="293" height="334" type="image/webp" media="(min-width: 768px)" srcset="images/anonim-player@1x.webp 1x, images/anonim-player@2x.webp 2x">
               <source width="293" height="334" type="image/webp" srcset="images/anonim-player@1x.webp 1x, images/anonim-player@2x.webp 2x">
               <source width="293" height="334" type="image/png" media="(min-width: 768px)" srcset="images/anonim-player@1x.png 1x, images/anonim-player@2x.png 2x">
-              <img class="participants-list__image" src="images/anonim-player@1x.png" srcset="images/anonim-player@2x.png 2x" alt="Хозе-Рауль Капабланка" width="293" height="334">
+              <img class="participants-list__image" src="images/anonim-player@1x.png" srcset="images/anonim-player@2x.png 2x" alt="Хозе-Рауль Капабланка" width="224" height="255">
             </picture>
           </div>
           <div class="participants-list__player-bio">
@@ -120,7 +145,7 @@
               <source width="293" height="334" type="image/webp" media="(min-width: 768px)" srcset="images/anonim-player@1x.webp 1x, images/anonim-player@2x.webp 2x">
               <source width="293" height="334" type="image/webp" srcset="images/anonim-player@1x.webp 1x, images/anonim-player@2x.webp 2x">
               <source width="293" height="334" type="image/png" media="(min-width: 768px)" srcset="images/anonim-player@1x.png 1x, images/anonim-player@2x.png 2x">
-              <img class="participants-list__image" src="images/anonim-player@1x.png" srcset="images/anonim-player@2x.png 2x" alt="Хозе-Рауль Капабланка" width="293" height="334">
+              <img class="participants-list__image" src="images/anonim-player@1x.png" srcset="images/anonim-player@2x.png 2x" alt="Хозе-Рауль Капабланка" width="224" height="255">
             </picture>
           </div>
           <div class="participants-list__player-bio">
@@ -135,7 +160,7 @@
               <source width="293" height="334" type="image/webp" media="(min-width: 768px)" srcset="images/anonim-player@1x.webp 1x, images/anonim-player@2x.webp 2x">
               <source width="293" height="334" type="image/webp" srcset="images/anonim-player@1x.webp 1x, images/anonim-player@2x.webp 2x">
               <source width="293" height="334" type="image/png" media="(min-width: 768px)" srcset="images/anonim-player@1x.png 1x, images/anonim-player@2x.png 2x">
-              <img class="participants-list__image" src="images/anonim-player@1x.png" srcset="images/anonim-player@2x.png 2x" alt="Хозе-Рауль Капабланка" width="293" height="334">
+              <img class="participants-list__image" src="images/anonim-player@1x.png" srcset="images/anonim-player@2x.png 2x" alt="Хозе-Рауль Капабланка" width="224" height="255">
             </picture>
           </div>
           <div class="participants-list__player-bio">
@@ -150,7 +175,7 @@
               <source width="293" height="334" type="image/webp" media="(min-width: 768px)" srcset="images/anonim-player@1x.webp 1x, images/anonim-player@2x.webp 2x">
               <source width="293" height="334" type="image/webp" srcset="images/anonim-player@1x.webp 1x, images/anonim-player@2x.webp 2x">
               <source width="293" height="334" type="image/png" media="(min-width: 768px)" srcset="images/anonim-player@1x.png 1x, images/anonim-player@2x.png 2x">
-              <img class="participants-list__image" src="images/anonim-player@1x.png" srcset="images/anonim-player@2x.png 2x" alt="Хозе-Рауль Капабланка" width="293" height="334">
+              <img class="participants-list__image" src="images/anonim-player@1x.png" srcset="images/anonim-player@2x.png 2x" alt="Хозе-Рауль Капабланка" width="224" height="255">
             </picture>
           </div>
           <div class="participants-list__player-bio">
@@ -165,7 +190,7 @@
               <source width="293" height="334" type="image/webp" media="(min-width: 768px)" srcset="images/anonim-player@1x.webp 1x, images/anonim-player@2x.webp 2x">
               <source width="293" height="334" type="image/webp" srcset="images/anonim-player@1x.webp 1x, images/anonim-player@2x.webp 2x">
               <source width="293" height="334" type="image/png" media="(min-width: 768px)" srcset="images/anonim-player@1x.png 1x, images/anonim-player@2x.png 2x">
-              <img class="participants-list__image" src="images/anonim-player@1x.png" srcset="images/anonim-player@2x.png 2x" alt="Хозе-Рауль Капабланка" width="293" height="334">
+              <img class="participants-list__image" src="images/anonim-player@1x.png" srcset="images/anonim-player@2x.png 2x" alt="Хозе-Рауль Капабланка" width="224" height="255">
             </picture>
           </div>
           <div class="participants-list__player-bio">
@@ -180,7 +205,7 @@
               <source width="293" height="334" type="image/webp" media="(min-width: 768px)" srcset="images/anonim-player@1x.webp 1x, images/anonim-player@2x.webp 2x">
               <source width="293" height="334" type="image/webp" srcset="images/anonim-player@1x.webp 1x, images/anonim-player@2x.webp 2x">
               <source width="293" height="334" type="image/png" media="(min-width: 768px)" srcset="images/anonim-player@1x.png 1x, images/anonim-player@2x.png 2x">
-              <img class="participants-list__image" src="images/anonim-player@1x.png" srcset="images/anonim-player@2x.png 2x" alt="Хозе-Рауль Капабланка" width="293" height="334">
+              <img class="participants-list__image" src="images/anonim-player@1x.png" srcset="images/anonim-player@2x.png 2x" alt="Хозе-Рауль Капабланка" width="224" height="255">
             </picture>
           </div>
           <div class="participants-list__player-bio">
@@ -191,16 +216,23 @@
         </li>
       </ul>
 
-      <div class="running-string">
-        <p class="running-string__text">Дело помощи утопающим — дело рук самих утопающих!</p>
-        <p class="running-string__text">Шахматы двигают вперед не только культуру, но и экономику!</p>
-        <p class="running-string__text">Лед тронулся, господа присяжные заседатели!</p>
+      <div class="slider-control slider-control--participants">
+        <button class="btn btn--slider" type="button"><span class="visually-hidden">Переключение слайда влево</span></button>
+        <div class="slider-control__counter"><span class="before">3</span>/<span class="after">6</span></div>
+        <button class="btn btn--slider" type="button"><span class="visually-hidden">Переключение слайда вправо</span></button>
       </div>
     </section>
-    <footer class="footer">
-      <p class="footer__disclaimer">Все персонажи, события и цитаты являются вымышленными и не принадлежат создателям сайта. С подробностями можно познакомиться в главе XXXIV романа Ильи Ильфа и Евгения Петрова «Двенадцать стульев».</p>
-    </footer>
+
+    <div class="running-string">
+      <p class="running-string__text">Дело помощи утопающим — дело рук самих утопающих!</p>
+      <p class="running-string__text">Шахматы двигают вперед не только культуру, но и экономику!</p>
+      <p class="running-string__text">Лед тронулся, господа присяжные заседатели!</p>
+    </div>
+
   </main>
+  <footer class="footer">
+    <p class="footer__disclaimer">Все персонажи, события и цитаты являются вымышленными и не принадлежат создателям сайта. С подробностями можно познакомиться в главе XXXIV романа Ильи Ильфа и Евгения Петрова «Двенадцать стульев».</p>
+  </footer>
 </body>
 
 </html>

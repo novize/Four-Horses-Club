@@ -1,3 +1,15 @@
 .plans {
   display: flex;
+  flex-direction: column;
+  padding: 88px 20px 20px;
+  margin: 0;
+}
+
+.plans__title-text {
+  display: block;
+  line-height: 1.2;
+  font-size: 18px;
+  color: $fifth-text-color;
+  margin: 0;
+  padding: 0;
 }

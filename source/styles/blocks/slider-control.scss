@@ -1,3 +1,9 @@
 .slider-control {
   display: grid;
+  grid-template-columns: repeat(3, auto);
+  width: 178px;
+  height: 36px;
+  margin: 0 auto;
+  padding: 0;
+  outline: 1px solid $primary-back-color;
 }
