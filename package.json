@@ -1,14 +1,14 @@
 {
-  "name": "cat-energy-31",
-  "version": "2.0.7",
+  "name": "four-horses",
+  "version": "1.0.0",
   "private": true,
-  "description": "Личный проект «Кэт энерджи» от HTML Academy",
+  "description": "Личный проект four-horses",
   "type": "module",
   "engines": {
     "node": "^18.18 || ^20.9"
   },
   "browserslist": [
-    "last 2 versions",
+    "last 3 versions",
     "not dead",
     "not op_mini all",
     "not and_uc > 0",

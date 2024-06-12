@@ -82,11 +82,11 @@
 }
 
 .plan-list__item-text::after {
-    position: absolute;
-    font-weight: 600;
-    font-size: 20px;
-    counter-increment: number;
-    content: counter(number);
-    top: 4px;
-    left: -40px;
+  position: absolute;
+  font-weight: 600;
+  font-size: 20px;
+  counter-increment: number;
+  content: counter(number);
+  top: 4px;
+  left: -40px;
 }

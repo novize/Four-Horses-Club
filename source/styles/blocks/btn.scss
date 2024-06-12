@@ -38,3 +38,15 @@
   color: $primary-text-color;
   outline: 1px solid $primary-back-color;
 }
+
+.btn--participants {
+  width: max-content;
+  text-decoration: none;
+  color: $button-border-color;
+  font-weight: 500;
+  font-size: 16px;
+  border-radius: 66px;
+  border: 1px solid;
+  padding: 6px 11px;
+  margin: 0 auto;
+}

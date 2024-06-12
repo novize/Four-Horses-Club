@@ -53,10 +53,7 @@
 }
 
 .invite__images--players .invite__image {
-  border-top-left-radius: 66%;
-  border-bottom-left-radius: 66%;
-  border-top-right-radius: 66%;
-  border-bottom-right-radius: 66%;
+  border-radius: 66%;
 }
 
 .invite__images--player {
@@ -86,7 +83,7 @@
   flex-flow: row nowrap;
 }
 
-.invite__affiche-row:last-child .invite__affiche-value{
+.invite__affiche-row:last-child .invite__affiche-value {
   display: flex;
   flex-flow: row nowrap;
   column-gap: 12px;
