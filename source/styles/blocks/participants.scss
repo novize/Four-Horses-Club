@@ -1,3 +1,55 @@
 .participants {
   display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin: 0;
+  padding: 73px 20px;
+  overflow-x: hidden;
+}
+
+.participants-list {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: stretch;
+  column-gap: 32px;
+  list-style: none;
+  padding: 0;
+}
+
+.participants-list__item {
+  display: flex;
+  flex-direction: column;
+  width: calc(100vw - 40px);
+  align-items: center;
+  justify-content: space-between;
+}
+
+.participants-list__image-box picture {
+  display: contents;
+}
+
+.participants-list__image-box {
+  display: flex;
+  width: 244px;
+  height: 244px;
+  border-radius: 50%;
+  margin: 6px 0 -2px;
+  background-color: aqua;
+  overflow: hidden;
+}
+
+.participants-list__image {
+  display: flex;
+  object-fit: contain;
+  width: 92%;
+  margin: -36px auto 0;
+  padding: 0;
+}
+
+.participants-list__player-status {
+  margin: 0;
+  padding: 8px 0 20px 4px;
+  opacity: 0.6;
 }

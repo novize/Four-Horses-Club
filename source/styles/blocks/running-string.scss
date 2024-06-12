@@ -1,3 +1,24 @@
 .running-string {
   display: flex;
+  flex-flow: row nowrap;
+  width: 100%;
+  margin: 250px 0 0;
+  padding: 0;
+  background-color: $running-string-back;
+  overflow-x: hidden;
+}
+
+.running-string--main {
+  margin-top: 28px;
+}
+
+.running-string__text {
+  display: block;
+  margin: 0;
+  padding: 11px 0;
+  color: $second-text-color;
+  white-space: nowrap;
+  font-size: 16px;
+  line-height: 1.1;
+  text-transform: uppercase;
 }

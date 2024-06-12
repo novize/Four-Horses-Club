@@ -1,3 +1,132 @@
 .invite {
   display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+.invite__text {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 49px 20px 30px 19px;
+  font-family: $second-font-family;
+  font-size: 28px;
+  line-height: 1.35;
+  text-transform: uppercase;
+}
+
+.invite__text span {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+.invite__text strong {
+  color: $fourth-text-color;
+  font-weight: 700;
+}
+
+.invite__text span:nth-child(2) {
+  margin-top: 261px;
+}
+
+.invite__text span:nth-child(3) {
+  margin-top: 462px;
+}
+
+.invite__images {
+  display: flex;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.invite__images--players {
+  display: flex;
+  position: absolute;
+  top: 224px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.invite__images--players .invite__image {
+  border-radius: 66%;
+}
+
+.invite__images--player {
+  display: flex;
+  position: absolute;
+  top: 647px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.invite__affiche {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 15px 20px 5px;
+}
+
+.invite__affiche-row {
+  display: flex;
+  flex-direction: column;
+  column-gap: 12px;
+  margin-bottom: 16px;
+  border-bottom: 2px solid #d0d0d0;
+}
+
+.invite__affiche-row:nth-child(4) {
+  flex-flow: row nowrap;
+}
+
+.invite__affiche-row:last-child .invite__affiche-value {
+  display: flex;
+  flex-flow: row nowrap;
+  column-gap: 12px;
+}
+
+.invite__affiche-value,
+.invite__affiche-key {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.invite__affiche-key {
+  opacity: 0.7;
+  padding-bottom: 12px;
+}
+
+.invite__affiche-value {
+  font-weight: 600;
+  padding-bottom: 14px;
+}
+
+.new-price {
+  display: flex;
+  position: relative;
+}
+
+.new-price::before {
+  display: block;
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: calc(100% + 7px);
+  top: 50%;
+  left: -1px;
+  background-color: $running-string-back;
+}
+
+.invite__affiche-notice {
+  display: block;
+  line-height: 1.2;
+  font-size: 18px;
+  color: $fifth-text-color;
+  margin: 0;
+  padding: 3px 20px;
 }

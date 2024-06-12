@@ -1,3 +1,52 @@
 .btn {
   display: block;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.3;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.btn--hero {
+  color: $second-text-color;
+  font-size: 17px;
+  border-radius: 66px;
+  padding: 12px 15px;
+}
+
+.btn--hero:first-child {
+  background-color: $primary-back-color;
+  margin-bottom: 15px;
+}
+
+.btn--hero:first-child:hover,
+.btn--hero:first-child:active {
+  background-color: $third-back-color;
+  color: $third-text-color;
+}
+
+.btn--hero:last-child {
+  background-color: $second-back-color;
+  outline: 1px solid #008000;
+}
+
+.btn--hero:last-child:hover,
+.btn--hero:last-child:active {
+  background-color: transparent;
+  color: $primary-text-color;
+  outline: 1px solid $primary-back-color;
+}
+
+.btn--participants {
+  width: max-content;
+  text-decoration: none;
+  color: $button-border-color;
+  font-weight: 500;
+  font-size: 16px;
+  border-radius: 66px;
+  border: 1px solid;
+  padding: 6px 11px;
+  margin: 0 auto;
 }
