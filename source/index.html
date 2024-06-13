@@ -113,8 +113,16 @@
       </ul>
 
       <div class="slider-control slider-control--plans">
-        <button class="btn btn--slider" type="button"><span class="visually-hidden">Переключение слайда влево</span></button>
-        <div class="slider-control__counter"><span class="dots">...</span></div>
+        <button class="btn btn--slider" type="button" disabled><span class="visually-hidden">Переключение слайда влево</span></button>
+        <div class="slider-control__counter">
+          <ul class="slider-control__dots">
+            <li class="slider-control__dots-item active"><span class="visually-hidden">Указатель текущего слайда</span></li>
+            <li class="slider-control__dots-item"><span class="visually-hidden">Указатель текущего слайда</span></li>
+            <li class="slider-control__dots-item"><span class="visually-hidden">Указатель текущего слайда</span></li>
+            <li class="slider-control__dots-item"><span class="visually-hidden">Указатель текущего слайда</span></li>
+            <li class="slider-control__dots-item"><span class="visually-hidden">Указатель текущего слайда</span></li>
+          </ul>
+        </div>
         <button class="btn btn--slider" type="button"><span class="visually-hidden">Переключение слайда вправо</span></button>
       </div>
     </section>
@@ -217,7 +225,7 @@
 
       <div class="slider-control slider-control--participants">
         <button class="btn btn--slider" type="button"><span class="visually-hidden">Переключение слайда влево</span></button>
-        <div class="slider-control__counter"><span class="before">3</span>/<span class="after">6</span></div>
+        <div class="slider-control__counter"><span class="before">1</span><span class="center">/</span><span class="after">6</span></div>
         <button class="btn btn--slider" type="button"><span class="visually-hidden">Переключение слайда вправо</span></button>
       </div>
     </section>

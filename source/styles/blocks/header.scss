@@ -5,4 +5,18 @@
   width: 100vw;
   margin: 0;
   padding: 0;
+  background-image:
+  image-set(
+    url("../../images/participant-card-back@1x.png") type("image/png") 1x,
+    url("../../images/participant-card-back@2x.png") type("image/png") 2x,
+    url("../../images/participant-card-back@1x.webp") type("image/webp") 1x,
+    url("../../images/participant-card-back@2x.webp") type("image/webp") 2x,
+    url("../../images/header-back-stone@1x.png") type("image/png") 1x,
+    url("../../images/header-back-stone@2x.png") type("image/png") 2x,
+    url("../../images/header-back-stone@1x.webp") type("image/webp") 1x,
+    url("../../images/header-back-stone@2x.webp") type("image/webp") 2x);
+  mix-blend-mode: multiply;
+  background-position: center, center;
+  background-repeat: repeat, repeat;
+  background-size: cover, cover;
 }

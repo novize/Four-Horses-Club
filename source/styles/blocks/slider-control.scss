@@ -1,15 +1,64 @@
 .slider-control {
   display: grid;
   grid-template-columns: repeat(3, auto);
-  justify-items: center;
-  align-items: center;
+  justify-items: stretch;
+  justify-content: center;
   width: 178px;
   height: 36px;
   margin: 0 auto;
   padding: 0;
-  outline: 1px solid $primary-back-color;
+}
+
+.slider-control--plans {
+  width: max-content;
+  justify-items: stretch;
+  justify-content: space-between;
 }
 
 .slider-control--participants {
-  margin: 17px auto 0;
+  align-items: center;
+  margin: 19px auto -2px;
+}
+
+.slider-control__counter {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0 16px;
+}
+
+.before,
+.center,
+.after {
+  font-size: 16px;
+}
+
+.slider-control__dots {
+  display: grid;
+  grid-template-columns: repeat(5, 10px);
+  grid-template-rows: auto;
+  justify-items: center;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 6px;
+  margin: 0 auto;
+  padding: 0 1px;
+  list-style: none;
+}
+
+.slider-control__dots-item {
+  margin: 0;
+  padding: 0;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: $fourth-back-color;
+}
+
+.active {
+  background-color: $fifth-text-color;
 }

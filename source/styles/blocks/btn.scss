@@ -29,7 +29,8 @@
 
 .btn--hero:last-child {
   background-color: $second-back-color;
-  outline: 1px solid #008000;
+  color: $primary-text-color;
+  opacity: 0.9;
 }
 
 .btn--hero:last-child:hover,
@@ -42,11 +43,55 @@
 .btn--participants {
   width: max-content;
   text-decoration: none;
-  color: $button-border-color;
+  color: $fifth-text-color;
   font-weight: 500;
   font-size: 16px;
   border-radius: 66px;
-  border: 1px solid;
+  border: 1px solid $button-border-color;
   padding: 6px 11px;
   margin: 0 auto;
+}
+
+.btn--participants:hover,
+.btn--participants:active {
+  background-color: $button-border-color;
+  color: $second-text-color;
+  border: 1px solid transparent;
+}
+
+.btn--participants:focus {
+  outline: 1px solid $button-border-color;
+}
+
+.btn--slider {
+  display: grid;
+  width: 36px;
+  height: 36px;
+  margin: 0;
+  padding: 0;
+  border-radius: 50%;
+  background-color: $primary-back-color;
+}
+
+.btn--slider:first-of-type {
+  background-image: url(../../icons/left-arrow.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 25%;
+}
+
+.btn--slider:last-of-type {
+  background-image: url(../../icons/right-arrow.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 25%;
+}
+
+.btn--slider:hover,
+.btn--slider:active {
+  background-color: $third-back-color;
+}
+
+.btn--slider:disabled {
+  background-color: $fourth-back-color;
 }
